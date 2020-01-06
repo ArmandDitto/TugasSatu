@@ -8,7 +8,7 @@ public class TugasParkir {
         String tipe="";
         int total=0;
 
-        for (int i = 0; i < 2; i++){
+        for (int i=0; i<2; i++){
             Scanner Obj=new Scanner(System.in);
             System.out.print("Plat        : ");
             String plat = Obj.nextLine();
